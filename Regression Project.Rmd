@@ -144,7 +144,7 @@ pairs(data=project, mpg ~ wt + cyl + disp + am + hp+ drat+ qsec+ vs,
 ```
 
 
-###Pair plot for multivariate Variable Regression-1
+###Residual plot for multivariate Variable Regression
 
 ```{r}
 project$residual2 <- model2$residuals # add the residuals to the frame
